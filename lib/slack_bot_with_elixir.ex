@@ -1,18 +1,7 @@
 defmodule SlackBotWithElixir do
-  @moduledoc """
-  Documentation for `SlackBotWithElixir`.
-  """
+  use Application
 
-  @doc """
-  Hello world.
-
-  ## Examples
-
-      iex> SlackBotWithElixir.hello()
-      :world
-
-  """
-  def hello do
-    :world
+  def start(_type, _args) do
+    Slack.Bot.start_link(SlackRtm, [], System.get_env("SLACK_BOT_API_TOKEN"))
   end
 end
