@@ -23,6 +23,8 @@ defmodule SlackBotWithElixir.MixProject do
   defp deps do
     [
       {:credo, "~> 0.3", only: [:dev, :test]},
+      {:quantum, "~> 2.3"},
+      {:timex, "~> 3.6"},
       {:slack, "~> 0.19"}
     ]
   end
