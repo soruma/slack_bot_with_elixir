@@ -22,7 +22,8 @@ defmodule SlackBotWithElixir.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      { :slack, "~> 0.19" }
+      {:credo, "~> 0.3", only: [:dev, :test]},
+      {:slack, "~> 0.19"}
     ]
   end
 end
