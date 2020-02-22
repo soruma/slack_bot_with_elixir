@@ -1,4 +1,4 @@
-defmodule SlackRtm do
+defmodule SlackBotWithElixir.Slack.Rtm do
   use Slack
 
   def handle_connect(slack, state) do
