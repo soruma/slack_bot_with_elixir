@@ -19,3 +19,8 @@ Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_do
 and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
 be found at [https://hexdocs.pm/slack_bot_with_elixir](https://hexdocs.pm/slack_bot_with_elixir).
 
+# API 設定
+
+## GCP 設定
+
+https://qiita.com/piacerex/items/4278fa2bdff33ea2cb8f
